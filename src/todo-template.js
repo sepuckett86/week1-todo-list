@@ -7,7 +7,7 @@ function todoTemplate(todo) {
     const html = /*html*/`
         <li>
             <label>
-                Go for a walk in the forest
+                ${todo.task}
                 <input type="checkbox" name="todo"${checked}>
             </label>
         </li>

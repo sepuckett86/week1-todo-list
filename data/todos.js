@@ -9,11 +9,11 @@ const todos = [
     },
     {
         task: 'Eat lunch',
-        completed: false
+        completed: true
     },
     {
         task: 'Bake a cake',
-        completed: false
+        completed: true
     },
     {
         task: 'Sing at the top of your lungs',
