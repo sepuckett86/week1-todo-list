@@ -1,21 +1,8 @@
+import todoTemplate from '../src/todo-template.js';
+
 const test = QUnit.test;
 
-function todoTemplate(todo) {
-    let checked = '';
-
-    if(todo.completed) {
-        checked = ' ' + 'checked';
-    }
-    const html = /*html*/`
-        <li>
-            <label>
-                Go for a walk in the forest
-                <input type="checkbox" name="todo"${checked}>
-            </label>
-        </li>
-    `;
-    return html;
-}
+QUnit.module('todo template');
 
 test('makes html for to-do with checked', assert => {
     // Arrange
